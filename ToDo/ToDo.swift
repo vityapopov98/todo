@@ -11,5 +11,14 @@ import UIKit
 class ToDo {
     var name = ""
     var important = false
+    var priority = 0
+    var timeForTask = 0.0
+    var timeLeft = 0.0
     
+    var startTimePlanning = Date()
+    var endTimePlanning = Date()
+    
+    var doTaskButtonState = ""
+    var startDoTaskTime = Date()
+    var endDoTaskTime = Date()
 }

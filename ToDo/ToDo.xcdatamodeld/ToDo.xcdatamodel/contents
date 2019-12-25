@@ -1,10 +1,56 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="19A602" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DayCoreData" representedClassName="DayCoreData" syncable="YES" codeGenerationType="class">
+        <attribute name="availableTime" attributeType="Double" defaultValueString="14" usesScalarValueType="YES">
+            <userInfo/>
+        </attribute>
+        <attribute name="endDay" attributeType="String" defaultValueString="21:00">
+            <userInfo/>
+        </attribute>
+        <attribute name="startDay" attributeType="String" defaultValueString="7:00">
+            <userInfo/>
+        </attribute>
+    </entity>
+    <entity name="DayNCoreData" representedClassName="DayNCoreData" syncable="YES" codeGenerationType="class">
+        <attribute name="availableTime" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES">
+            <userInfo/>
+        </attribute>
+        <attribute name="endDay" attributeType="Date" usesScalarValueType="NO">
+            <userInfo/>
+        </attribute>
+        <attribute name="startDay" attributeType="Date" usesScalarValueType="NO">
+            <userInfo/>
+        </attribute>
+    </entity>
     <entity name="ToDoCoreData" representedClassName="ToDoCoreData" syncable="YES" codeGenerationType="class">
-        <attribute name="important" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="doTaskButtonState" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endDoTaskTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="endTimePlanning" optional="YES" attributeType="Date" usesScalarValueType="NO">
+            <userInfo/>
+        </attribute>
+        <attribute name="important" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES">
+            <userInfo/>
+        </attribute>
+        <attribute name="name" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="priority" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES">
+            <userInfo/>
+        </attribute>
+        <attribute name="startDoTaskTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="startTimePlanning" optional="YES" attributeType="Date" usesScalarValueType="NO">
+            <userInfo/>
+        </attribute>
+        <attribute name="timeForTask" attributeType="Double" defaultValueString="0" usesScalarValueType="YES">
+            <userInfo/>
+        </attribute>
+        <attribute name="timeLeft" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES">
+            <userInfo/>
+        </attribute>
     </entity>
     <elements>
-        <element name="ToDoCoreData" positionX="-63" positionY="-18" width="128" height="73"/>
+        <element name="DayCoreData" positionX="-63" positionY="9" width="128" height="90"/>
+        <element name="DayNCoreData" positionX="-62.42578125" positionY="140.82421875" width="128" height="88"/>
+        <element name="ToDoCoreData" positionX="-265.296875" positionY="-39.1953125" width="128" height="193"/>
     </elements>
 </model>

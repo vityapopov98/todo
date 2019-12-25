@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041962F0239544950045614B /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041962EF239544950045614B /* Day.swift */; };
 		0493C166238CE8F500C86504 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493C165238CE8F500C86504 /* AppDelegate.swift */; };
 		0493C16B238CE8F500C86504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0493C169238CE8F500C86504 /* Main.storyboard */; };
 		0493C16E238CE8F500C86504 /* ToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0493C16C238CE8F500C86504 /* ToDo.xcdatamodeld */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		041962EF239544950045614B /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		0493C162238CE8F500C86504 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0493C165238CE8F500C86504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0493C16A238CE8F500C86504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				0493C171238CE8FA00C86504 /* LaunchScreen.storyboard */,
 				0493C174238CE8FA00C86504 /* Info.plist */,
 				0493C16C238CE8F500C86504 /* ToDo.xcdatamodeld */,
+				041962EF239544950045614B /* Day.swift */,
 				0493C17C238F866D00C86504 /* ToDo.swift */,
 			);
 			path = ToDo;
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041962F0239544950045614B /* Day.swift in Sources */,
 				0493C16E238CE8F500C86504 /* ToDo.xcdatamodeld in Sources */,
 				0493C17B238CEAE600C86504 /* ToDoTableViewController.swift in Sources */,
 				0493C17F238F8CA600C86504 /* AddToDoViewController.swift in Sources */,
@@ -301,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7R74X4YGA5;
 				INFOPLIST_FILE = ToDo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,6 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7R74X4YGA5;
 				INFOPLIST_FILE = ToDo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
